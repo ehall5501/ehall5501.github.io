@@ -1,0 +1,144 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    justify-content: space-around;
+    background-color: transparent;
+    padding-top: 2%;
+    margin-right: 3em;
+}
+.navbar-container div{
+    padding: 2%;
+}
+.navbar-container img:hover{
+    box-shadow:
+                1px 1px transparent,
+                2px 2px transparent,
+                3px 3px transparent;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+#donutIcon img{
+    width: 150px;
+	height: 100px;
+    padding-left: 2.5em; 
+  
+}
+#aboutUs{
+    max-height: 30px;
+    max-width: 100%;
+    height: auto;
+}
+#menuIcon{
+    max-height: 30px;
+    max-width: 100%; 
+    height: auto;
+}
+#contactIcon{
+    max-height: 30px;
+    max-width: 100%;
+    height: auto;
+}
+body{
+    background-color: #422b25;
+    word-wrap: break-word;
+}
+.img-container{
+    float:left;
+    width: 50%;
+	word-wrap: break-word;
+	min-width: 400px;
+}
+.img-container img{
+    width: 85%;
+	height: auto;
+    border: 8px solid #f5b142;
+    margin-left: 1em;
+    word-wrap: break-word;
+}
+.img-container ul{
+    font-size: 36px;
+    color: #f5b142;
+    margin: 0.25em;
+	padding: 0.25em;
+	word-wrap: break-word;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    justify-content: center;
+
+}
+body h2{
+    text-decoration: underline;
+    text-align: center;
+    color: #f5b142;
+    padding: 2em;
+}
+#hours{
+    text-align: center;
+    padding: 0.25em;
+    border: 2px solid #f5b142;
+}
+.bottom-container{
+    float: left;
+    width: 50%;
+    word-wrap: break-word;
+}
+.bottom-container form{
+    margin: 1em;
+    padding-left: 30%;
+}
+form textarea{
+    display: block;
+}
+#map{
+    width: 85%;
+    height: 300px;
+    margin: 1em;
+    padding: 1em;
+}
+#nav_bar{
+    display: none;
+}
+#small_nav {
+	display: none;
+	width: 100%;
+    background-color: #422b25;
+    color: #422b25;
+}
+footer{
+    color: #f5b142;
+    font-style: italic;
+    text-align: center;
+}
+@media only screen and (max-width: 1100px){
+    .navbar-container{
+        display: none;
+    }
+    #nav_bar{
+        display: none;
+        background-color: #422b25;
+    }
+    #small_nav{
+        display: block;
+        background-color: #422b25;
+    }
+    .slicknav_menu{
+        background-color: #422b25;
+    }
+    #map{
+        width: 280px;
+        margin-left: 2.5em;
+    }
+    .bottom-container{
+        float: none;
+    }
+    .bottom-container h2{
+        margin-left: 3em;
+        padding: 0;
+        width: 100%;
+    }
+}
