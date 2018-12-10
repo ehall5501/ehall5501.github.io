@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="content/site.css">
+    <link rel="icon" href="assets/NEWLOGO.png">
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides(){
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++){
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length){slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 100000);
+}
+    </script>
+	<title>Elijah Hall~Donut Delights</title>
+    <link rel="stylesheet" href="content/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="jquery.slicknav.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#nav_bar').slicknav({prependTo:"#small_nav"});
+    	});
+    </script>
+</head>
+<body>
+    <header>
+        <nav id="small_nav"></nav>
+	<nav id="nav_bar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="contact.html">Contact</a></li>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/?hl=en">Instagram</a></li>
+            <li><a href="https://plus.google.com/discover">Google Plus</a></li>
+            <li><a href="https://twitter.com/">Twitter</a></li>
+		</ul>
+	</nav>
+    </header>
+    <div class="navbar-container">
+        <div id="donutIcon"><a href="index.html"><img src="assets/NEWLOGO.png" alt="donutIcon"></a></div>
+        <div id="aboutUs"><a href="aboutus.html"><img src="assets/About%20Us.png" alt="AboutUs"/></a></div>
+        <div id="menuIcon"><a href="menu.html"><img src="assets/Menu.png" alt="Menu"/></a></div>
+        <div id="contactIcon"><a href="contact.html"><img src="assets/Contact.png" alt="Contact"/></a></div>
+         <div>
+        	<a href="https://www.youtube.com/"><img src="assets/socialMedia/youtube.PNG" alt="youtube video"></a>
+        </div>
+        <div>
+        	<a href="https://www.facebook.com/">
+        	<img src="assets/socialMedia/facebook.PNG" alt="facebook link"></a>
+        </div>
+        <div>
+        	<a href="https://www.instagram.com/?hl=en">
+        	<img src="assets/socialMedia/instagram.PNG" alt="instagram link"></a>
+        </div>
+        <div>
+        	<a href="https://plus.google.com/discover">
+        	<img src="assets/socialMedia/googlePlus.PNG" alt="google plus link"></a>
+        </div>
+        <div>
+        	<a href="https://twitter.com/">
+        	<img src="assets/socialMedia/twitter.PNG" alt="twitter link"></a>
+        </div>
+    </div>
+    <section> 
+        <div class="slide-container"> <!-- inside of shop image, formspree, robots/humans txt, favicon-->
+            <div class="mySlides">
+            <img src="content/images/new_homepageDonut_ehall.png" alt="homeDonut">
+        </div>
+            <div class="mySlides">
+            <img src="assets/donut2.jpg" alt="donut2">
+        </div>
+        	<div class="mySlides">
+        		<img src="assets/donut_biscuits.jpg" alt="donut biscuits">
+        	</div>
+        	<div class="mySlides">
+        		<img src="assets/store-interior.jpg" alt="inside of store">
+        	</div>
+        </div>
+        <div id="description">
+            <p>Donut Delights has been serving C-U with the highest quality donuts and coffees since 1971. Nestled in downtown Urbana, Donut Delights has become a haven for “Gotta have it” breakfast treats. Our donuts are baked fresh twice daily and our coffee’s brewed every fifteen minutes. If you have never been to C-U’s hidden gem, you are missing out.</p>
+        </div>
+    </section>
+    <h1 id="tagline">The finest in breakfast treats and coffees since 1971</h1>
+	<script src="content/main.js" type="text/javascript"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130681221-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130681221-1');
+</script>
+
+</body>
+    <footer>
+        <p>Copyright &copy; 2018 DONUT DELIGHTS </p>
+    </footer>
+</html>
